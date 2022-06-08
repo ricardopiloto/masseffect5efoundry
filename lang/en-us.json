@@ -14,8 +14,9 @@
             "damage": "Damage",
             "conceal": "Conceal",
             "reload": "Reload",
-            "mookBonus": "Bonus vs Mooks",
-            "pumpAction": "Pump Action?"
+            "heat": "Heat",
+            "weight": "Weight",
+            "attributes": "Attributes"
         }
     }
 }

@@ -1,0 +1,22 @@
+{
+    "me5e": {
+        "attack": {
+            "none": "",
+            "guns": "Armas",
+            "martialArts": "Arts Marciais",
+            "sorcery": "Magia",
+            "creature": "Criatura",
+            "scroungetech": "Scroungetech",
+            "mutant": "Mutante"
+        },
+        "weapon": {
+            "attackWith": "Atacar com:",
+            "damage": "Dano",
+            "conceal": "Esconder",
+            "reload": "Recarregar",
+            "heat": "Calor",
+            "weight": "Peso",
+            "attributes": "Atributos"
+        }
+    }
+}

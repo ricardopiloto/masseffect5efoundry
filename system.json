@@ -1,0 +1,44 @@
+{
+    "name": "me5e",
+    "title": "Mass Effect 5e",
+    "description": "A system to play Mass Effect 5e on FoundryVTT",
+    "author": "RicardoJiban",
+    "authors": [
+        {
+            "name": "Ricardo Sobral",
+            "email": "ac.ricardosobral@gmail.com"
+        }
+    ],
+    "url": "https://github.com/ricardopiloto/masseffect5efoundry",
+    "version": "0.9.0",
+    "minimumCoreVersion": "0.9.0",
+    "compatibleCoreVersion": "0.9.0",
+    "scripts": [],
+    "esmodules": [
+        "module/me5e.js"
+    ],
+    "styles": [
+        "styles/me5e.css"
+    ],
+    "packs": [],
+    "languages": [
+        {
+            "lang": "pt-BR",
+            "name": "Português (Brasil)",
+            "path": "lang/pt-BR.json"
+        },
+        {
+            "lang": "en-US",
+            "name": "English (US)",
+            "path": "lang/en-us.json"
+        }
+    ],
+    "system": [],
+    "dependencies": [],
+    "socket": false,
+    "gridDistance": 5,
+    "gridUnits": "ft",
+    "primaryTokenAttribute": "physical",
+    "secondaryTokenAttribute": "stun",
+    "initiative": "@dexterity + 1d20"
+}

@@ -1,0 +1,33 @@
+{
+    "Actors": {},
+    "Item": {
+        "types": [
+            "weapon"
+        ],
+        "templates": {
+            "itemDescription": {
+                "description": ""
+            }
+        },
+        "weapon": {
+            "templates": [
+                "itemDescription"
+            ],
+            "attack": "guns",
+            "damage": 0,
+            "concealment": 0,
+            "reload": 0,
+            "mookBonus": 0,
+            "pumpAction": false
+        }
+    },
+    "vehicle": {
+        "templates": [
+            "itemDescription"
+        ],
+        "acceleration": 0,
+        "frame": 0,
+        "handling": 0,
+        "personal": false
+    }
+}

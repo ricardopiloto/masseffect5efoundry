@@ -3,5 +3,32 @@
         <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="64" width="64"/>
         <h1><input name="name" type="text" value="{{item.name}}" placeholder="{{ localize 'Name' }}"/></h1>
     </header>
-    <p>HELLO!</p>
+    <div>
+        <table>
+            <tr>
+                <th>{{localize "me5e.weapon.attackwith"}}</th>
+                <th>{{localize "me5e.weapon.damage"}}</th>
+                <th>{{localize "me5e.weapon.conceal"}}</th>
+                <th>{{localize "me5e.weapon.reload"}}</th>
+                <th>{{localize "me5e.weapon.mookbonus"}}</th>
+                <th>{{localize "me5e.weapon.pumpaction"}}</th>
+            </tr>
+            <tr>
+                <td>
+                    <select name="data.attackWith">
+                        {{#select data.attackWith}}
+                        {{#select config.attackTypes as |name type|}}
+                        <option value="{{type}}">{{name}}</option>
+                        {{/each}}
+                        {{/select}}
+                    </select>
+                </td>
+                <!--This one repeats based on number of items on the sheet-->
+                <td>
+                    <input name="data.damage" type="text" value="{{data.damage}}" data-dtype="Number" />
+                </td>
+            </tr>
+        </table>
+        <textarea name="data.description">{{data.description}}</textarea>
+    </div>
 </form>

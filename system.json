@@ -10,12 +10,11 @@
         }
     ],
     "url": "https://github.com/ricardopiloto/me5e",
-    "version": "0.9.0",
+    "version": 0.01,
     "minimumCoreVersion": "0.9.0",
     "compatibleCoreVersion": "0.9.0",
-    "scripts": [],
     "esmodules": [
-        "module/me5e.js"
+        "me5e.js"
     ],
     "styles": [
         "styles/me5e.css"
@@ -23,21 +22,16 @@
     "packs": [],
     "languages": [
         {
+            "lang": "en",
+            "name": "English (US)",
+            "path": "lang/en.json"
+        },
+        {
             "lang": "pt-BR",
             "name": "Português (Brasil)",
             "path": "lang/pt-BR.json"
-        },
-        {
-            "lang": "en-US",
-            "name": "English (US)",
-            "path": "lang/en-us.json"
         }
     ],
-    "system": [],
-    "dependencies": [
-        "dnd5e"
-    ],
-    "socket": false,
     "gridDistance": 5,
     "gridUnits": "ft",
     "primaryTokenAttribute": "physical",

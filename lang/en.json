@@ -14,9 +14,14 @@
             "damage": "Damage",
             "conceal": "Conceal",
             "reload": "Reload",
-            "heat": "Heat",
-            "weight": "Weight",
-            "attributes": "Attributes"
+            "mookBonus": "MookBonus",
+            "pumpAction": "Pump Action"
+        },
+        "vehicle": {
+            "acceleration": "Acceleration",
+            "frame": "Frame",
+            "handling": "Handling",
+            "personal": "Personal"
         }
     }
 }

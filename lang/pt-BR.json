@@ -14,9 +14,14 @@
             "damage": "Dano",
             "conceal": "Esconder",
             "reload": "Recarregar",
-            "heat": "Calor",
-            "weight": "Peso",
-            "attributes": "Atributos"
+            "mookBonus": "MookBonus",
+            "pumpAction": "Pump Action"
+        },
+        "vehicle": {
+            "acceleration": "Aceleração",
+            "frame": "Chasis",
+            "handling": "Manuseio",
+            "personal": "Pessoal"
         }
     }
 }

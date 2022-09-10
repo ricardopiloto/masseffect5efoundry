@@ -1,2 +1,2 @@
 # masseffect5efoundry
-System to play MassEffect 5e on Foundry VTT
+Unofficial version of MassEffect 5e for FoundryVTT.
